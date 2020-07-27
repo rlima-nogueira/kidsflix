@@ -1,0 +1,21 @@
+import React from 'react';
+
+import './Menu.css';
+
+import Logo from '../../assets/img/Logo.png';
+import ButtonLink from './components/ButtonLink';
+import { Button } from '../Button';
+
+export default function Menu(){
+    return(
+        <nav className="Menu">
+            <a href="/">
+                <img className="Logo" src={Logo} alt="Logo KidsFlix"/>
+            </a>
+
+            <Button as="a" className="ButtonLink" href="#"> 
+                Novo vídeo
+            </Button>
+        </nav>
+    );
+}
