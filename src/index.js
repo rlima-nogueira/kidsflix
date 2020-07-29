@@ -25,7 +25,6 @@ ReactDOM.render(
       <Route path="/cadastro/video" component= {CadastroVideo } />
       <Route path="/cadastro/categoria" component= {CadastroCategoria} />
 
-
       <Route component= { paginaDeErro404 } />
 
     </Switch>
